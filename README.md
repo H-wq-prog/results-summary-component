@@ -7,7 +7,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot]![](./Screenshot.jpg)
-  - [Links](#links)
+  - [Links](https://github.com/H-wq-prog/results-summary-component.git))
 - [My process](#my-process)
 
 
