@@ -1,0 +1,239 @@
+:root{
+    --font-family: "Hanken Grotesk", "Open Sans", sans-serif;
+
+    /* Primary color */
+--Light-red: hsl(0, 100%, 67% );
+--Orangey-yellow: hsl(39, 100%, 56% );
+--Green-teal: hsl(166, 100%, 37% );
+--Cobalt-blue: hsl(234, 85%, 45% );
+
+
+/* gradients color */
+
+--Light-slate-blue /*(background)*/: hsl(252, 100%, 67%);
+--Light-royal-blue /*(background)*/: hsl(241, 81%, 54%);
+
+--Violet-blue /*(circle)*/: hsla(256, 72%, 46%, 1);
+--Persian-blue /*(circle)*/: hsla(241, 72%, 46%, 0);
+
+
+/* Neutral color */
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+body{
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Pale-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* edit card */
+.container .card{
+     width: 60%;
+     height: fit-content;
+     display: flex;
+     background-color: var(--White);
+     border-radius: 30px;
+     -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+     -ms-border-radius: 30px;
+     -o-border-radius: 30px;
+}
+
+
+/* edit left card */
+.card .card-left{
+    width: 50%;
+    background-image: linear-gradient(var(--Light-slate-blue) 20%, var(--Light-royal-blue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card .card-left p{
+color: var(--Pale-blue);
+opacity: .7;
+font-size: 18px;
+margin-bottom:25px ;
+margin-top:30px ;
+}
+
+.card .card-left .scour{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--Violet-blue) 40% , var(--Persian-blue));
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+
+.card .card-left .scour p{
+    color: var(--White);
+    opacity: 1;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.card .card-left .scour span{
+    font-size: 12px;
+    color:  var(--Pale-blue);
+    opacity: .6;
+}
+
+.card .card-left h2{
+    color: var(--White);
+}
+
+.card .card-left p:nth-last-child(1){
+    font-size: 14px;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+}
+
+
+
+
+/* edit right card */
+
+.card .card-right{
+    
+    width: 50%;
+    height: 100%;
+    font-family: var(--font-family);
+}
+
+.card-right h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--Dark-gray-blue);
+    padding-left: 20px;
+}
+
+.card-right .section{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+        margin: 10px 0 10px 10px;
+    height: 50px;
+
+}
+.card-right .section div{
+    width: 50%;
+    flex-direction: row;
+    display: flex
+;
+}
+.card-right .section div img{
+    margin: 0 10px 0 10px ;
+}
+.card-right .section>p{
+    color:var(--Dark-gray-blue);
+    font-weight: 600;
+}
+.card-right .section>p span{
+    opacity: .5;
+}
+
+.card-right .section1{
+    background-color:hsl(0, 100%, 67% , 10%) ;
+    color: var(--Light-red);
+}
+
+.card-right .section2{
+    background-color: hsl(39, 100%, 56% , 10%) ;
+    color: var(--Orangey-yellow);
+}
+
+    .card-right .section3{
+    background-color: hsl(166, 100%, 37% , 10%) ;
+    color: var(--Green-teal);
+}
+
+    .card-right .section4{
+    background-color:hsl(234, 85%, 45% , 10%) ;
+    color: var(--Cobalt-blue);
+}
+    
+
+.card-right .button {
+    width: 100%;
+    margin: 30px 0 20px 0 ;
+    height: fit-content;
+}
+
+.card-right .button button{
+    border: none;
+    background-color: var(--Dark-gray-blue);
+    color: var(--White);
+    width: 90%;
+    height: 40px ;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.card-right .button button:hover{
+background-color: var(--Light-royal-blue);
+cursor: pointer;
+}
+
+@media(max-width:380px){
+
+    .container .card{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    .card-left{
+        width: 100% !important;
+        padding:20px 0  20px 0 ;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+    }
+    .card-left P ,.card-left h2{
+        margin: 5px;
+    }
+    .card-right{
+        width: 100% !important;
+    }
+}
