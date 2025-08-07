@@ -8,7 +8,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Screenshot]![](./Screenshot.jpg)
   - [Links](https://github.com/H-wq-prog/results-summary-component.git))
-- [My process](#my-process)
+- [My process](https://h-wq-prog.github.io/results-summary-component/)
 
 
 
@@ -18,8 +18,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
 
 
 ### Built with
